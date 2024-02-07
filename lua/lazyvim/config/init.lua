@@ -41,7 +41,7 @@ local defaults = {
     },
     diagnostics = {
       Error = " ",
-      Warn  = " ",
+      Warn  = " ",
       Hint  = " ",
       Info  = " ",
     },
