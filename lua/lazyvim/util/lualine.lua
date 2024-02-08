@@ -131,7 +131,7 @@ function M.root_dir(opts)
 
   return {
     function()
-      return (opts.icon and opts.icon .. " ") .. get()
+      return (opts.icon and opts.icon) .. get()
     end,
     cond = function()
       return type(get()) == "string"

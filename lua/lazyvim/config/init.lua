@@ -42,7 +42,7 @@ local defaults = {
     diagnostics = {
       Error = " ",
       Warn  = " ",
-      Hint  = " ",
+      Hint  = "󰌵 ",
       Info  = " ",
     },
     git = {
