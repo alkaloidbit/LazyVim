@@ -60,6 +60,9 @@ return {
           ---@type LazyKeysSpec[]
           -- keys = {},
           settings = {
+            diagnostics = {
+              globals = { "vim" },
+            },
             Lua = {
               workspace = {
                 checkThirdParty = false,
@@ -97,6 +100,7 @@ return {
       -- deprecated options
       if opts.autoformat ~= nil then
         vim.g.autoformat = opts.autoformat
+
         Util.deprecate("nvim-lspconfig.opts.autoformat", "vim.g.autoformat")
       end
 
